@@ -1,0 +1,107 @@
+
+.customCollapse,.customCollapse2 {
+	margin:3vh 0 0 3vh;
+	align-items: center;
+}
+#firstCollapse  {
+	margin-top:2vh;
+	height:30vh;
+	width:60vw;
+}
+
+#secondCollapse {
+	margin-top:2vh;
+	height:30vh;
+	width:60vw;
+
+}
+
+p {
+	border :2px solid #bf3299;
+	margin:0;
+	height:20vh;
+	padding:1vw;
+	width:50vw;
+	background-color: #86165538;
+}
+
+#button1, #button2{
+	padding:1vw;
+	background:#9dd8ea;
+	cursor:pointer;
+	font-weight:bold;
+	font-style:italic;
+}
+
+
+@media only screen and (max-width: 300px) {
+
+	#firstCollapse,#secondCollapse {
+		height:60vh;
+	}
+	p{
+		height:58vh;
+		width:85vw;
+	}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:767px) { 
+
+	p{
+		height:80vh;
+		width:85vw;
+		padding-top:2vw;
+		font-size:1.5rem ;
+	}
+	#firstCollapse,#secondCollapse {
+		width:90vw;
+		height:90vh;
+	}
+	#button1, #button2{
+		padding:3vw;
+		font-size:1.5rem;
+	}
+
+	
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+
+	
+
+	#button1,#button2 {
+		width: 32vw;
+		font-size: 1.5rem;
+		padding:2vw;
+	}
+	p{
+		height: 40vh;
+		width: 64vw;
+		font-size: 1.5rem;
+	}
+	#firstCollapse,#secondCollapse {
+		height:45vh;
+		width: 65vw;
+	}
+}
+
+@media only screen and (min-width:1200px)
+{
+	#button1,#button2 {
+		width: 26vw;
+		font-size: 1.4rem;
+	}
+
+	p {
+		font-size: 1.5rem;
+		height: 35vh;
+		width: 70vw;
+	}
+	#firstCollapse,#secondCollapse {
+		height:46vh;
+		width: 70vw;
+
+	}
+
+}

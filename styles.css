@@ -1,0 +1,116 @@
+
+body {
+	margin: 0;
+	background-color: #fdf;
+}
+
+.customNav {
+	background-color: #d48b8b8a;
+	height:12vh;
+
+
+}
+.customNav h3 {
+	font-style: italic;
+	padding:1vw;
+	font-size:2.5rem;
+
+}
+
+.options {
+	margin:20vh 30vw 20vh 30vw;
+	border:2px #ff00ba24 solid;
+	border-radius: 8%;
+	height:32vh;
+	width:30vw;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #d48b8b82;
+
+}
+.compButtons {
+	padding:0.5vw;
+	margin:0.9vw;
+	width:14vw;
+	font-size:2rem;
+	background-color: #9bc7dcc2;
+	/*font-family: cursive;*/
+	font-family: 'Droid Sans', arial, serif;;
+	font-weight:bold;
+	cursor: pointer;
+
+}
+.itemsList {
+	display:flex;
+	/*flex-direction: row-reverse; */
+	justify-content: flex-end;
+	list-style: none;
+}
+.item {
+	width: 8vw;
+	/*height:7vw;*/
+	padding:1vw;
+	cursor: 
+}
+
+
+
+
+@media only screen and (max-width: 300px) {
+
+	.customNav h3 {
+		font-size:1.3rem;
+	}
+	.options {
+		background-color:transparent;
+		border-color: transparent;
+		margin:20vh 30vw 20vh 30vw;;
+	}
+	.compButtons {
+		width:70vw;
+		font-size:0.9rem;
+		padding: 2vw;
+	}
+
+}
+
+@media only screen and (min-width: 300px) and (max-width:767px) { 
+
+	.compButtons {
+		width:45vw;
+		padding:1vw;
+		font-size:1rem;
+	}
+	.options {
+		width:57vw;
+		margin:20vh 30vw 20vh 20vw;
+
+	}
+	.customNav {
+		height:14vh;
+	}
+	.customNav h3 {
+		font-size:2rem;
+	}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1200px) {
+
+	.compButtons {
+		width:30vw;
+		font-size:1.3rem;
+	}
+	.options {
+		width:45vw;
+		height:40vh;
+	}
+}
+
+@media only screen and (min-width:1200px)
+{
+	.compButtons {
+		font-size:1.1rem;
+	}
+
+}
