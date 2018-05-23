@@ -47,6 +47,7 @@ a{
 	}
 }
 
+
 @media  only  screen and (max-width:700px)  {
 
 	.menu a{
@@ -54,10 +55,11 @@ a{
 	}
 	.menu2 a {
 		padding:3vh;
+		font-size: 1.8rem;
 	}
 	.icon{
 		display:block;
-		font-size:2rem;
+		font-size:3rem;
 		padding:2vw;
 		cursor: pointer
 	}
